@@ -1,0 +1,13 @@
+As we took the data from the api in above example in the form of json same json data could be fetched as array of objects and further manipulation over data could be done, 
+
+a simple method would be this way,
+const data = JSON.parse(request.responsetext);
+
+
+Also if we want to have our data in json form written, only a little difference exists with respect to writing in objects data,
+
+which is for every key value in json we must mandatorily use double quotes and for values if int and bool form can be written without double quotes.
+
+
+
+
